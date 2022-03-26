@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: ASHDIGI
 
 # Controls when the workflow will run
 on:
@@ -33,7 +33,7 @@ jobs:
              cmd: install
                           
       - name: make build
-        run: yarn build
+        run: npm run build
       
       - name: install surge
         run: npm install -g surge
