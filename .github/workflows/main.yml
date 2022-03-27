@@ -32,8 +32,8 @@ jobs:
              # Yarn command
              cmd: install
                           
-      - name: make build
-        run: sudo npm run build
+      - name: Make Production Build
+        run: yarn build
       
       - name: install surge
         run: npm install -g surge
